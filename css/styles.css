@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Manjari&display=swap');
+
+html {
+    font: 16px/1.5 'Manjari', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(32, 178, 170);
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li a {
+    color: white;
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 0;
+}
+
+nav li a:active {
+    text-decoration-color: none;
+}
+
+i.fas {
+    text-align: center;
+    display: block;
+    padding-bottom: 0.6em;
+}
+
+nav li a span {
+    display: block;
+}
+
+nav li a:hover {
+    background-color: rgb(32, 178, 170);
+    background-color: rgb(255, 255, 255);
+}
+
+.img-container {
+    margin: 2em 5em 2em 15em;
+
+}
+
+.img-container img {
+    border-radius: 50%;
+    width: 400px;
+    max-width: 100%;
+}
+
+section div {
+    display: inline-block;
+}
+
+
+.background {
+
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
