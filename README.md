@@ -1,2 +1,2 @@
 # aleksandar-petrov.github.io
-CV - Aleksandar Petrov
+This is my resume made with HTML, CSS, JS.
