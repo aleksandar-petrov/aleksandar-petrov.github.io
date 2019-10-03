@@ -15,6 +15,25 @@ $(document).ready(function () {
         }, 1000);
     });
 
+    $(".section-header").hover(function () {
+
+        const navElementId = $(this).parent().attr('id').split("-")[0] + "-nav-link";
+
+
+        $(`#${navElementId}, .section-header`).stop().animate({
+            color: randomHexColor(),
+        }, 1000);
+
+
+    }, function () {
+
+        const navElementId = $(this).parent().attr('id').split("-")[0] + "-nav-link";
+
+        $(`#${navElementId}, .section-header`).stop().animate({
+            color: "#FFFFFF",
+        }, 1000);
+    });
+
 
 
     const introOffset = $('#intro-section').offset().top - 4 * ($("nav").height());
