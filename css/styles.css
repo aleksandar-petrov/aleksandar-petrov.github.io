@@ -16,10 +16,9 @@ html {
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+.timeline p {
     font-weight: 900;
+    color: #FFFFFF;
 }
 
 nav {
@@ -90,6 +89,7 @@ nav li a:hover {
     overflow: hidden;
     background-color: rgba(22, 10, 83, 0.5);
     position: relative;
+    color: #FFFFFF;
 }
 
 
@@ -121,7 +121,7 @@ nav li a:hover {
 
 .info ul li {
     font-size: 1.2em;
-    margin: 0.1em 0;
+    margin: 0.1em 0.1em 0 0.1em;
     display: inline-block;
 
 }
@@ -160,14 +160,6 @@ nav li a:hover {
     border-radius: 20px;
 }
 
-/* .icon:hover:after {
-    content: '';
-    background-color: rgba(0,0,0,0.5);
-    width: 80px;
-    height: 80px;
-    display: block;
-    border-radius: 3px;
-  } */
 
 .icon.linked-in {
     background-image: url("../images/logos/linked-in-logo.svg");
@@ -220,4 +212,163 @@ nav li a:hover {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     z-index: -1;
+}
+
+#timeline-content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.timeline {
+    border-left: 4px solid #ffffff;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    background: rgba(255, 255, 255, 0.03);
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 15em;
+    letter-spacing: 0.5px;
+    position: relative;
+    line-height: 1.4em;
+    font-size: 1.03em;
+    padding: 20px 50px;
+    list-style: none;
+    text-align: left;
+    font-weight: 100;
+    max-width: 70%;
+}
+
+.timeline h1 {
+    letter-spacing: 1.5px;
+    font-weight: 100;
+    font-size: 1.4em;
+}
+
+.timeline h2 {
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.timeline .event {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    text-align: center;
+}
+
+.timeline .event:last-of-type {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:before {
+    left: -250.5px;
+    color: rgba(255, 255, 255, 0.8);
+    content: attr(data-date);
+    text-align: right;
+    font-weight: 100;
+    font-size: 0.9em;
+    min-width: 120px;
+}
+
+.timeline .event:after {
+    box-shadow: 0 0 0 4px #ffffff;
+    left: -57.85px;
+    background: #25CED1;
+    border-radius: 50%;
+    height: 11px;
+    width: 11px;
+    content: "";
+    top: 5px;
+}
+
+.timeline img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.timeline .edu-name {
+    margin-left: 15px;
+    text-align: center;
+}
+
+.timeline figure.imghvr-flip-vert {
+    border-radius: 50%;
+    background-color: rgba(22, 10, 83, 0.5);
+}
+
+.timeline figure p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.timeline figure figcaption {
+    background-color: #25CED1;
+}
+
+
+.section-header {
+    font-size: 3em;
+    padding: 25px 0;
+    text-align: center;
+    border-bottom: 2px solid #FFFFFF;
+}
+
+.education h2,
+.edu-name div {
+    margin: 20px 0;
+}
+
+.education .edu-info {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.description {
+    padding: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
+
+.subjects {
+    margin: 15px 0;
+}
+
+
+.grade {
+    font-weight: 900;
+    font-size: 1.5em;
+    padding: 1em;
+    border-radius: 60%;
+    border-bottom: 3px solid rgba(255, 255, 255, 0.4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.section-header {
+    text-align: center;
+    color: white;
+}
+
+.section-header i, .section-header h1{
+    display: inline-block;
+}
+
+.section-header i {
+    font-size: 1.2em;
+    margin-right: 20px;
+    padding: 0;
+    padding-top: 5px;
+    line-height: 0;
 }
