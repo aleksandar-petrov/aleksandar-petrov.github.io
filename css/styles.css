@@ -399,6 +399,11 @@ nav li a:hover {
     width: auto;
 }
 
+.skills-container .junit img {
+    
+    padding: 3em;
+}
+
 
 
 .skills-container .bottom-zoom-rotate img:hover {
