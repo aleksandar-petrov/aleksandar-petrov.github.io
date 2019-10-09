@@ -184,7 +184,6 @@ nav li a:hover {
 .img-container img {
     width: 450px;
     max-width: 100%;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
 
 
@@ -371,4 +370,93 @@ nav li a:hover {
     padding: 0;
     padding-top: 5px;
     line-height: 0;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.img-skill-container {
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.5);
+    display: block;
+    overflow: hidden;
+    margin: 0 auto;
+
+}
+
+
+.skills-container img {
+    
+    display: block;
+    margin: 0 auto;
+    padding: 2em;
+    height: 180px;
+    width: auto;
+}
+
+
+
+.skills-container .bottom-zoom-rotate img:hover {
+
+    transition: transform 1s ease;
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2) rotate(360deg) translateY(-25%);
+}
+
+.skills-container .top-zoom-rotate img:hover {
+
+    transition: transform 1s ease;
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2) rotate(360deg) translateY(25%);
+}
+
+.skills-container .zoom-rotate img:hover {
+
+    transition: transform 1s ease;
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: scale(2) rotate(360deg);
+}
+
+.skills-container .rotate img:hover {
+
+    transition: transform 1s ease;
+    -ms-transform: scale(2);
+    -webkit-transform: scale(2);
+    transform: rotate(360deg);
+}
+
+.skills-container img:not(:hover) {
+    transition: transform 1s ease;
+}
+
+.skill-description {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+
+}
+
+.skills-container h2 {
+    font-size: 2.4em;
+}
+
+.skills-container h3 {
+    font-size: 1.2em;
+}
+
+.skill-element {
+    text-align: center;
+    flex: 1 1 19em;
+    margin: 1em 2em 1em 2em;
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+    overflow: hidden;
+    flex-direction: column;
 }
