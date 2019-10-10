@@ -1,5 +1,9 @@
 $(document).ready(function () {
 
+    setTimeout(() => {
+        AOS.init();
+    }, 3100);
+
     $("nav li a").hover(function () {
 
 

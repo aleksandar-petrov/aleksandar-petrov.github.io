@@ -399,8 +399,7 @@ nav li a:hover {
     width: auto;
 }
 
-.skills-container .junit img {
-    
+.skills-container .junit img {  
     padding: 3em;
 }
 
@@ -461,7 +460,8 @@ nav li a:hover {
     text-align: center;
     flex: 1 1 19em;
     margin: 1em 2em 1em 2em;
-    /* border: 2px solid rgba(255, 255, 255, 0.5); */
     overflow: hidden;
     flex-direction: column;
 }
+
+  
