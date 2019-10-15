@@ -1,8 +1,14 @@
 $(document).ready(function () {
 
+    $(window).on('beforeunload', function() {
+        $(window).scrollTop(0); 
+    });
+
+
     setTimeout(() => {
         AOS.init();
     }, 3100);
+
 
     $("nav li a").hover(function () {
 
@@ -38,41 +44,45 @@ $(document).ready(function () {
         }, 1000);
     });
 
+    $(window).resize(function () {
 
+        const introOffset = $('#intro-section').offset().top - ($("nav").height() + 2 * $(".section-header").height());
+        const educationOffset = $('#education-section').offset().top - ($("nav").height() + 2 * $(".section-header").height());
+        const skillsOffset = $('#skills-section').offset().top - ($("nav").height() + 2 * $(".section-header").height());
+        const languagesOffset = $('#languages-section').offset().top - ($("nav").height() + 2 * $(".section-header").height());
+        const portfolioOffset = $('#portfolio-section').offset().top - ($("nav").height() + 2 * $(".section-header").height());
+        const certificatesOffset = $('#certificates-section').offset().top - ($("nav").height() + 2 * $(".section-header").height());
+        const achievmentsOffset = $('#achievments-section').offset().top - ($("nav").height() + 2 * $(".section-header").height());
 
-    const introOffset = $('#intro-section').offset().top - 4 * ($("nav").height());
-    const educationOffset = $('#education-section').offset().top - 4 * ($("nav").height());
-    const skillsOffset = $('#skills-section').offset().top - 4 * ($("nav").height());
-    const languagesOffset = $('#languages-section').offset().top - 4 * ($("nav").height());
-    const portfolioOffset = $('#portfolio-section').offset().top - 4 * ($("nav").height());
-    const certificatesOffset = $('#certificates-section').offset().top - 4 * ($("nav").height());
-    const achievmentsOffset = $('#achievments-section').offset().top - 4 * ($("nav").height());
+        $(document).scroll(function () {
+            const scrollPos = $(document).scrollTop();
+            if (scrollPos >= introOffset && scrollPos < educationOffset) {
+                $("hr").removeClass("active");
+                $('#about-line').addClass("active");
+            } else if (scrollPos >= educationOffset && scrollPos < skillsOffset) {
+                $("hr").removeClass("active");
+                $('#education-line').addClass("active");
+            } else if (scrollPos >= skillsOffset && scrollPos < languagesOffset) {
+                $("hr").removeClass("active");
+                $('#skills-line').addClass("active");
+            } else if (scrollPos >= languagesOffset && scrollPos < portfolioOffset) {
+                $("hr").removeClass("active");
+                $('#languages-line').addClass("active");
+            } else if (scrollPos >= portfolioOffset && scrollPos < certificatesOffset) {
+                $("hr").removeClass("active");
+                $('#portfolio-line').addClass("active");
+            } else if (scrollPos >= certificatesOffset && scrollPos < achievmentsOffset) {
+                $("hr").removeClass("active");
+                $('#certificates-line').addClass("active");
+            } else if (scrollPos >= achievmentsOffset) {
+                $("hr").removeClass("active");
+                $('#achievments-line').addClass("active");
+            }
+        });
 
-    $(document).scroll(function () {
-        const scrollPos = $(document).scrollTop();
-        if (scrollPos >= introOffset && scrollPos < educationOffset) {
-            $("hr").removeClass("active");
-            $('#about-line').addClass("active");
-        } else if (scrollPos >= educationOffset && scrollPos < skillsOffset) {
-            $("hr").removeClass("active");
-            $('#education-line').addClass("active");
-        } else if (scrollPos >= skillsOffset && scrollPos < languagesOffset) {
-            $("hr").removeClass("active");
-            $('#skills-line').addClass("active");
-        } else if (scrollPos >= languagesOffset && scrollPos < portfolioOffset) {
-            $("hr").removeClass("active");
-            $('#languages-line').addClass("active");
-        } else if (scrollPos >= portfolioOffset && scrollPos < certificatesOffset) {
-            $("hr").removeClass("active");
-            $('#portfolio-line').addClass("active");
-        } else if (scrollPos >= certificatesOffset && scrollPos < achievmentsOffset) {
-            $("hr").removeClass("active");
-            $('#certificates-line').addClass("active");
-        } else if (scrollPos >= achievmentsOffset) {
-            $("hr").removeClass("active");
-            $('#achievments-line').addClass("active");
-        }
     });
+
+
 });
 
 
