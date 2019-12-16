@@ -5,725 +5,660 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
     <link rel="stylesheet" href="css/loader.css">
     <title>CV - Aleksandar Petrov</title>
     <script src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"
-        integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+            integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
     <script src="js/loader.js"></script>
     <script src="https://kit.fontawesome.com/eb02020e37.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/imagehover.min.css">
     <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/viewer.min.css">
     <script src="js/aos.js"></script>
+    <script src="js/viewer.min.js"></script>
+    <script src="js/jquery-viewer.min.js"></script>
 
 </head>
 
 <body>
 
-    <div class="se-pre-con"></div>
+<div class="se-pre-con"></div>
 
-    <div id="particles-js"></div>
+<div id="particles-js"></div>
 
-    <header>
-        <nav data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="1500">
+<header>
+    <nav data-aos="zoom-in" data-aos-duration="3000" data-aos-delay="1500">
+        <ul>
+            <li>
+                <hr id="about-line" class="active"/>
+                <a target=”_blank” href="#intro-section" id="about-nav-link">
+                    <i class="fas fa-address-card fa-2x"></i>
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <hr id="education-line"/>
+                <a target=”_blank” href="#education-section" id="education-nav-link">
+                    <i class="fas fa-graduation-cap fa-2x"></i>
+                    <span>Education</span>
+                </a>
+            </li>
+            <li>
+                <hr id="skills-line"/>
+                <a target=”_blank” href="#skills-section" id="skills-nav-link">
+                    <i class="fas fa-code fa-2x"></i>
+                    <span>Skills</span>
+                </a>
+            </li>
+            <li>
+                <hr id="languages-line"/>
+                <a target=”_blank” href="#languages-section" id="languages-nav-link">
+                    <i class="fas fa-language fa-2x"></i>
+                    <span>Languages</span>
+                </a>
+            </li>
+            <li>
+                <hr id="portfolio-line"/>
+                <a target=”_blank” href="#portfolio-section" id="portfolio-nav-link">
+                    <i class="fas fa-briefcase fa-2x"></i>
+                    <span>Portfolio</span>
+                </a>
+            </li>
+            <li>
+                <hr id="certificates-line"/>
+                <a target=”_blank” href="#certificates-section" id="certificates-nav-link">
+                    <i class="fas fa-certificate fa-2x"></i>
+                    <span>Certificates</span>
+                </a>
+            </li>
+
+            <li>
+                <hr id="achievements-line"/>
+                <a target=”_blank” href="#achievements-section" id="achievements-nav-link">
+                    <i class="fas fa-trophy fa-2x"></i>
+                    <span>Achievements</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+
+    <section class="section" id="intro-section" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+             data-aos-duration="3000">
+
+        <div class="info">
+            <h1>ALEKSANDAR PETROV</h1>
+            <h2>Junior Java Web Developer</h2>
             <ul>
                 <li>
-                    <hr id="about-line" class="active" />
-                    <a href="#intro-section" id="about-nav-link">
-                        <i class="fas fa-address-card fa-2x"></i>
-                        <span>About</span>
-                    </a>
+                    <p><i class="fas fa-calendar-alt fa-1x"></i>Date of birth: 10. December, 1999</p>
                 </li>
                 <li>
-                    <hr id="education-line" />
-                    <a href="#education-section" id="education-nav-link">
-                        <i class="fas fa-graduation-cap fa-2x"></i>
-                        <span>Education</span>
-                    </a>
+                    <p><i class="fas fa-phone-alt fa-1x"></i><span>Phone</span>: <a
+                            href="tel:+359-876-616-764">+359-876-616-764</a></p>
                 </li>
                 <li>
-                    <hr id="skills-line" />
-                    <a href="#skills-section" id="skills-nav-link">
-                        <i class="fas fa-code fa-2x"></i>
-                        <span>Skills</span>
-                    </a>
+                    <p><i class="fas fa-envelope fa-1x"></i><span>Email</span>: <a
+                            href="mailto:mr.aleksandar.petrov@gmail.com">mr.aleksandar.petrov@gmail.com</a></p>
                 </li>
                 <li>
-                    <hr id="languages-line" />
-                    <a href="#languages-section" id="languages-nav-link">
-                        <i class="fas fa-language fa-2x"></i>
-                        <span>Languages</span>
-                    </a>
-                </li>
-                <li>
-                    <hr id="portfolio-line" />
-                    <a href="#portfolio-section" id="portfolio-nav-link">
-                        <i class="fas fa-briefcase fa-2x"></i>
-                        <span>Portfolio</span>
-                    </a>
-                </li>
-                <li>
-                    <hr id="certificates-line" />
-                    <a href="#certificates-section" id="certificates-nav-link">
-                        <i class="fas fa-certificate fa-2x"></i>
-                        <span>Certificates</span>
-                    </a>
-                </li>
-
-                <li>
-                    <hr id="achievments-line" />
-                    <a href="#achievments-section" id="achievments-nav-link">
-                        <i class="fas fa-trophy fa-2x"></i>
-                        <span>Achievments</span>
-                    </a>
+                    <p><i class="fas fa-location-arrow fa-1x"></i><span>Location</span>: <a
+                            href="https://goo.gl/maps/eZXz7JbzFVPsPU3dA">Sofia, Bulgaria</a></p>
                 </li>
             </ul>
-        </nav>
-    </header>
-
-    <main>
-
-
-        <section class="section" id="intro-section" data-aos="flip-left" data-aos-easing="ease-out-cubic"
-            data-aos-duration="3000">
-
-            <div class="info">
-                <h1>ALEKSANDAR PETROV</h1>
-                <h2>Junior Java Web Developer</h2>
-                <ul>
-                    <li>
-                        <p><i class="fas fa-calendar-alt fa-1x"></i>Date of birth: 10. December, 1999</p>
-                    </li>
-                    <li>
-                        <p><i class="fas fa-phone-alt fa-1x"></i><span>Phone</span>: <a
-                                href="tel:+359-876-616-764">+359-876-616-764</a></p>
-                    </li>
-                    <li>
-                        <p><i class="fas fa-envelope fa-1x"></i><span>Email</span>: <a
-                                href="mailto:mr.aleksandar.petrov@gmail.com">mr.aleksandar.petrov@gmail.com</a></p>
-                    </li>
-                    <li>
-                        <p><i class="fas fa-location-arrow fa-1x"></i><span>Location</span>: <a
-                                href="https://goo.gl/maps/eZXz7JbzFVPsPU3dA">Sofia, Bulgaria</a></p>
-                    </li>
-                </ul>
-                <div class="social">
-                    <a href="https://www.linkedin.com/in/aleksandar-kalinov-petrov/" class="icon linked-in"></a>
-                    <a href="https://github.com/aleksandar-petrov" class="icon github"></a>
-                </div>
-
+            <div class="social">
+                <a target=”_blank” href="https://www.linkedin.com/in/aleksandar-kalinov-petrov/" class="icon linked-in"></a>
+                <a target=”_blank” href="https://github.com/aleksandar-petrov" class="icon github"></a>
             </div>
 
-            <div class="img-container">
-                <img src="images/profile.jpg" alt="Profile picture">
-            </div>
+        </div>
+
+        <div class="img-container">
+            <img src="images/profile.jpg" alt="Profile picture">
+        </div>
 
 
+    </section>
 
-        </section>
-
-        <section class="section education" id="education-section" data-aos="fade-in" data-aos-duration="3000"
-            data-aos-offset="300" data-aos-once="true">
-            <div class="section-header"><i class="fas fa-graduation-cap fa-1x"></i>
-                <h1>Education</h1>
-            </div>
-            <div id="timeline-content">
-                <ul class="timeline">
-                    <li class="event" data-date="Sept. 2013 - May 2018">
-                        <a href="https://ntbg.bg/">
-                            <figure class="imghvr-flip-vert">
-                                <img src="images/logos/ntbg.jpg" alt="National Trade And Banking High School Logo">
-                                <figcaption>
-                                    <p>Go to National Trade And Banking High School Website</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                        <div class="edu-name">
-                            <h2>National Trade And Banking High School</h2>
-                            <h3>Third Level of Professional Qualification in Finance</h3>
-                            <div>
-                                <p>Profile: Financier</p>
-                                <p>Specialty: Banking</p>
-                            </div>
+    <section class="section education" id="education-section" data-aos="fade-in" data-aos-duration="3000"
+             data-aos-offset="300" data-aos-once="true">
+        <div class="section-header"><i class="fas fa-graduation-cap fa-1x"></i>
+            <h1>Education</h1>
+        </div>
+        <div id="timeline-content">
+            <ul class="timeline">
+                <li class="event" data-date="Sept. 2013 - May 2018">
+                    <a target=”_blank” href="https://ntbg.bg/">
+                        <figure class="imghvr-flip-vert">
+                            <img src="images/logos/ntbg.jpg" alt="National Trade And Banking High School Logo">
+                            <figcaption>
+                                <p>Go to National Trade And Banking High School Website</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <div class="edu-name">
+                        <h2>National Trade And Banking High School</h2>
+                        <h3>Third Level of Professional Qualification in Finance</h3>
+                        <div>
+                            <p>Profile: Financier</p>
+                            <p>Specialty: Banking</p>
                         </div>
-                        <div class="edu-info">
+                    </div>
+                    <div class="edu-info">
 
-                            <p class="grade">Grade: 5.93/6.00</p>
+                        <p class="grade">Grade: 5.93/6.00</p>
+                    </div>
+                </li>
+                <li class="event" data-date="Sept. 2018 - Now">
+                    <a target=”_blank” href="https://softuni.bg/">
+                        <figure class="imghvr-flip-vert">
+                            <img src="images/logos/softuni.png" alt="Software University Logo">
+                            <figcaption>
+                                <p>Go to Software University Website</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <div class="edu-name">
+                        <h2>Software University</h2>
+                        <h3>Software Engineering</h3>
+                        <div>
+                            <h4>Profession: Java Web Developer</h4>
                         </div>
-                    </li>
-                    <li class="event" data-date="Sept. 2018 - Now">
-                        <a href="https://softuni.bg/">
-                            <figure class="imghvr-flip-vert">
-                                <img src="images/logos/softuni.png" alt="Software University Logo">
-                                <figcaption>
-                                    <p>Go to Software University Website</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                        <div class="edu-name">
-                            <h2>Software University</h2>
-                            <h3>Software Engineering</h3>
-                            <div>
-                                <h4>Profession: Java Web Developer</h4>
-                            </div>
+                    </div>
+
+                    <div class="edu-info">
+                        <div class="description">
+                            <p>The SoftUni (Software University) curriculum is a combination of programming and
+                                technology courses, all aimed at gaining fundamental knowledge, developing of
+                                logical and algorithmic thinking, as well as acquiring practical work experience
+                                with the latest software technologies.</p>
                         </div>
 
-                        <div class="edu-info">
-                            <div class="description">
-                                <p>The SoftUni (Software University) curriculum is a combination of programming and
-                                    technology courses, all aimed at gaining fundamental knowledge, developing of
-                                    logical and algorithmic thinking, as well as acquiring practical work experience
-                                    with the latest software technologies.</p>
-                            </div>
+                        <p class="subjects">Notable Subjects: </p>
 
-                            <p class="subjects">Notable Subjects: </p>
-
-                            <div class="description">
-                                <p>Coding Skills, Programming, Problem Solving, Software Technologies, Web Technologies,
-                                    Java OOP, Data Structures, Code Quality, Unit Testing, SQL Language, MySQL,
-                                    Hibernate ORM, JSON and XML, Spring MVC, Back-End Development, Web Apps with
-                                    Databases, Spring Data REST, HTML and CSS, JavaScript Front-End, JS Objects and
-                                    Classes, jQuery, DOM and AJAX, REST, JSON and SPA</p>
-                            </div>
-                            <p class="grade">Grade: 6.00/6.00</p>
+                        <div class="description">
+                            <p>Coding Skills, Programming, Problem Solving, Software Technologies, Web Technologies,
+                                Java OOP, Data Structures, Code Quality, Unit Testing, SQL Language, MySQL,
+                                Hibernate ORM, JSON and XML, Spring MVC, Back-End Development, Web Apps with
+                                Databases, Spring Data REST, HTML and CSS, JavaScript Front-End, JS Objects and
+                                Classes, jQuery, DOM and AJAX, REST, JSON and SPA</p>
                         </div>
+                        <p class="grade">Grade: 6.00/6.00</p>
+                    </div>
 
-                    </li>
+                </li>
 
-                    <li class="event" data-date="Oct. 2018 - Now">
-                        <a href="https://www.unwe.bg/">
-                            <figure class="imghvr-flip-vert">
-                                <img src="images/logos/unwe.jpg" alt="University Of National And World Economy Logo">
-                                <figcaption>
-                                    <p>Go to University Of National And World Economy Website</p>
-                                </figcaption>
-                            </figure>
-                        </a>
-                        <div class="edu-name">
-                            <h2>University Of National And World Economy</h2>
-                            <h3>Bachelor's Degree in Business Informatics and Communications</h3>
-                            <div>
-                                <h4>Faculty: Faculty of Applied Informatics and Statistics</p>
-                                    <h4>Department: Information Technologies and Communications</p>
-                            </div>
+                <li class="event" data-date="Oct. 2018 - Now">
+                    <a target=”_blank” href="https://www.unwe.bg/">
+                        <figure class="imghvr-flip-vert">
+                            <img src="images/logos/unwe.jpg" alt="University Of National And World Economy Logo">
+                            <figcaption>
+                                <p>Go to University Of National And World Economy Website</p>
+                            </figcaption>
+                        </figure>
+                    </a>
+                    <div class="edu-name">
+                        <h2>University Of National And World Economy</h2>
+                        <h3>Bachelor's Degree in Business Informatics and Communications</h3>
+                        <div>
+                            <h4>Faculty: Faculty of Applied Informatics and Statistics</h4>
+                            <h4>Department: Information Technologies and Communications</h4>
                         </div>
-                        <div class="edu-info">
-                            <div class="description">
-                                <p>The speciality has entered since 2010/2011 academic year. This speciality is the
-                                    basis for expanding the exchange of students between the universities in Europe and
-                                    in the world. The disciplines studied in the speciality give the necessary
-                                    theoretical preparation and practical orientation in order to make graduates be able
-                                    to build up or participate in the building up of information systems for business
-                                    purpose as well as to elaborate software products and components related to the
-                                    entire establishment, incorporation and use of information systems. Disciplines
-                                    included in the academic plan provide the necessary theoretical and practical level
-                                    for doing business and systematic analysis, project, programming and establishing
-                                    the complete computer systems for information management. The elaborated academic
-                                    plan of the speciality is in line with the similar academic plans on Business
-                                    Informatics of the other European universities as well as with the Programme of ACM
-                                    Information systems. The education begins with the basic economic knowledge related
-                                    to the functioning and management of separate private or public organizations as
-                                    well as with the basic knowledge related to the computer architecture, programming,
-                                    databases and web-systems. Particular emphasis in education is paid on the
-                                    information systems analysis, the elaboration of strategy and architecture of
-                                    eBusiness systems as it is reporting the importance of organizational behavior of
-                                    the institution the information systems are created for. There are also certain
-                                    courses for building up the complete systems where the important role play the
-                                    business process, the administrating and management of integrated information
-                                    systems. The speciality graduates can work as in Bulgaria as well as in the other
-                                    European countries or in the world and more particular at the all divisions
-                                    establishing and maintaining corporative information systems, at the software
-                                    companies, at the state and public administration, financial institutions and banks
-                                    as well as at the consulting companies dealing with the project, establishment and
-                                    maintenance of information systems.</p>
-                            </div>
-                            <p class="subjects">Notable Subjects: </p>
-                            <div class="description">
-                                <p>Informatics, Databases, Internet Technologies, Computer Architecture, Principles of
-                                    algorithms and programming, Object-oriented programming, Operating Systems,
-                                    Development of application software systems, Networks and Telecommunications,
-                                    Information Systems Design, Models for Internet applications development,
-                                    Programming in database systems, Technologies for Web systems development, ERP
-                                    Systems, Multi-tired Web Applications, Design and management of Integrated
-                                    Information Systems</p>
-                            </div>
+                    </div>
+                    <div class="edu-info">
+                        <div class="description">
+                            <p>The speciality has entered since 2010/2011 academic year. This speciality is the
+                                basis for expanding the exchange of students between the universities in Europe and
+                                in the world. The disciplines studied in the speciality give the necessary
+                                theoretical preparation and practical orientation in order to make graduates be able
+                                to build up or participate in the building up of information systems for business
+                                purpose as well as to elaborate software products and components related to the
+                                entire establishment, incorporation and use of information systems. Disciplines
+                                included in the academic plan provide the necessary theoretical and practical level
+                                for doing business and systematic analysis, project, programming and establishing
+                                the complete computer systems for information management. The elaborated academic
+                                plan of the speciality is in line with the similar academic plans on Business
+                                Informatics of the other European universities as well as with the Programme of ACM
+                                Information systems. The education begins with the basic economic knowledge related
+                                to the functioning and management of separate private or public organizations as
+                                well as with the basic knowledge related to the computer architecture, programming,
+                                databases and web-systems. Particular emphasis in education is paid on the
+                                information systems analysis, the elaboration of strategy and architecture of
+                                eBusiness systems as it is reporting the importance of organizational behavior of
+                                the institution the information systems are created for. There are also certain
+                                courses for building up the complete systems where the important role play the
+                                business process, the administrating and management of integrated information
+                                systems. The speciality graduates can work as in Bulgaria as well as in the other
+                                European countries or in the world and more particular at the all divisions
+                                establishing and maintaining corporative information systems, at the software
+                                companies, at the state and public administration, financial institutions and banks
+                                as well as at the consulting companies dealing with the project, establishment and
+                                maintenance of information systems.</p>
                         </div>
-                    </li>
-                </ul>
+                        <p class="subjects">Notable Subjects: </p>
+                        <div class="description">
+                            <p>Informatics, Databases, Internet Technologies, Computer Architecture, Principles of
+                                algorithms and programming, Object-oriented programming, Operating Systems,
+                                Development of application software systems, Networks and Telecommunications,
+                                Information Systems Design, Models for Internet applications development,
+                                Programming in database systems, Technologies for Web systems development, ERP
+                                Systems, Multi-tired Web Applications, Design and management of Integrated
+                                Information Systems</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+
+    <section class="section" id="skills-section" data-aos="fade-in" data-aos-duration="3000" data-aos-offset="100"
+             data-aos-once="true">
+
+
+        <div class="section-header"><i class="fas fa-code fa-1x"></i>
+            <h1>Skills</h1>
+        </div>
+
+        <div class="skills-container">
+
+            <div class="skill-element">
+                <div class="img-skill-container bottom-zoom-rotate">
+                    <img src="images/skills/java.png" alt="Java">
+                </div>
+                <div class="skill-description">
+                    <h2>Java 8, Java EE</h2>
+                    <h3>Java Servlets, JavaServer Pages, JavaServer Faces</h3>
+                </div>
             </div>
 
-        </section>
-
-        <section class="section" id="skills-section" data-aos="fade-in" data-aos-duration="3000" data-aos-offset="100"
-            data-aos-once="true">
-
-
-            <div class="section-header"><i class="fas fa-code fa-1x"></i>
-                <h1>Skills</h1>
+            <div class="skill-element">
+                <div class="img-skill-container zoom-rotate">
+                    <img src="images/skills/spring.png" alt="Spring"></div>
+                <div class="skill-description">
+                    <h2>Spring</h2>
+                    <h3>Spring Boot, Spring Data, Spring MVC, Spring Security</h3>
+                </div>
             </div>
 
-            <div class="skills-container">
-
-                <div class="skill-element">
-                    <div class="img-skill-container bottom-zoom-rotate">
-                        <img src="images/skills/java.png" alt="Java">
-                    </div>
-                    <div class="skill-description">
-                        <h2>Java 8, Java EE</h2>
-                        <h3>Java Servlets, JavaServer Pages, JavaServer Faces</h3>
-                    </div>
+            <div class="skill-element">
+                <div class="img-skill-container zoom-rotate">
+                    <img src="images/skills/angular.png" alt="Angular"></div>
+                <div class="skill-description">
+                    <h2>Angular 2+</h2>
+                    <h3>Single Page Applications</h3>
                 </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container zoom-rotate">
-                        <img src="images/skills/spring.png" alt="Spring"></div>
-                    <div class="skill-description">
-                        <h2>Spring</h2>
-                        <h3>Spring Boot, Spring Data, Spring MVC, Spring Security</h3>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container zoom-rotate">
-                        <img src="images/skills/thymeleaf.png" alt="Thymeleaf">
-                    </div>
-                    <div class="skill-description">
-                        <h2>Thymeleaf</h2>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container zoom-rotate">
-                        <img src="images/skills/primefaces.png" alt="Primefaces">
-                    </div>
-                    <div class="skill-description">
-                        <h2>Primefaces</h2>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container bottom-zoom-rotate">
-                        <img src="images/skills/mysql.png" alt="MySQL">
-                    </div>
-                    <div class="skill-description">
-                        <h2>MySQL</h2>
-                        <h3>Relational Databases</h3>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container bottom-zoom-rotate">
-                        <img src="images/skills/hibernate.png" alt="Hibernate">
-                    </div>
-                    <div class="skill-description">
-                        <h2>Hibernate ORM + JPA</h2>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container zoom-rotate junit">
-                        <img src="images/skills/junitplusmockito.png" alt="JUnit">
-                    </div>
-                    <div class="skill-description">
-                        <h2>jUnit + Mockito</h2>
-                        <h3>Unit Testing</h3>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container top-zoom-rotate">
-                        <img src="images/skills/html.png" alt="HTML5">
-                    </div>
-                    <div class="skill-description">
-                        <h2>HTML 5</h2>
-                    </div>
-                </div>
-                <div class="skill-element">
-                    <div class="img-skill-container top-zoom-rotate">
-                        <img src="images/skills/css.png" alt="CSS3">
-                    </div>
-                    <div class="skill-description">
-                        <h2>CSS 3</h2>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container top-zoom-rotate">
-                        <img src="images/skills/javascript.png" alt="JavaScript">
-                    </div>
-                    <div class="skill-description">
-                        <h2>JavaScript</h2>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container zoom-rotate">
-                        <img src="images/skills/jquery.png" alt="jQuery">
-                    </div>
-                    <div class="skill-description">
-                        <h2>jQuery</h2>
-                    </div>
-                </div>
-
-                <div class="skill-element">
-                    <div class="img-skill-container zoom-rotate">
-                        <img src="images/skills/bootstrap.jpg" alt="Bootstrap">
-                    </div>
-                    <div class="skill-description">
-                        <h2>Bootstrap</h2>
-                    </div>
-                </div>
-
-
-
             </div>
 
-        </section>
-
-        <section class="section" id="languages-section" data-aos="fade-in" data-aos-duration="3000"
-            data-aos-offset="100" data-aos-once="true">
-
-            <div class="section-header"><i class="fas fa-language fa-1x"></i>
-                <h1>Languages</h1>
+            <div class="skill-element">
+                <div class="img-skill-container zoom-rotate">
+                    <img src="images/skills/thymeleaf.png" alt="Thymeleaf">
+                </div>
+                <div class="skill-description">
+                    <h2>Thymeleaf</h2>
+                </div>
             </div>
 
-            <div class="language-container">
-                <div class="language english">
-                    <img src="images/languages/english.jpg" alt="English logo">
-                    <h2>English</h2>
+            <div class="skill-element">
+                <div class="img-skill-container zoom-rotate">
+                    <img src="images/skills/primefaces.png" alt="Primefaces">
                 </div>
+                <div class="skill-description">
+                    <h2>Primefaces</h2>
+                </div>
+            </div>
 
-                <div class="language german">
-                    <img src="images/languages/german.jpg" alt="German logo">
-                    <h2>German</h2>
+            <div class="skill-element">
+                <div class="img-skill-container bottom-zoom-rotate">
+                    <img src="images/skills/mysql.png" alt="MySQL">
+                </div>
+                <div class="skill-description">
+                    <h2>MySQL</h2>
+                    <h3>Relational Databases</h3>
+                </div>
+            </div>
+
+            <div class="skill-element">
+                <div class="img-skill-container bottom-zoom-rotate">
+                    <img src="images/skills/hibernate.png" alt="Hibernate">
+                </div>
+                <div class="skill-description">
+                    <h2>Hibernate ORM + JPA</h2>
+                </div>
+            </div>
+
+            <div class="skill-element">
+                <div class="img-skill-container zoom-rotate junit">
+                    <img src="images/skills/junitplusmockito.png" alt="JUnit">
+                </div>
+                <div class="skill-description">
+                    <h2>jUnit + Mockito</h2>
+                    <h3>Unit Testing</h3>
+                </div>
+            </div>
+
+            <div class="skill-element">
+                <div class="img-skill-container top-zoom-rotate">
+                    <img src="images/skills/html.png" alt="HTML5">
+                </div>
+                <div class="skill-description">
+                    <h2>HTML 5</h2>
+                </div>
+            </div>
+            <div class="skill-element">
+                <div class="img-skill-container top-zoom-rotate">
+                    <img src="images/skills/css.png" alt="CSS3">
+                </div>
+                <div class="skill-description">
+                    <h2>CSS 3</h2>
+                </div>
+            </div>
+
+            <div class="skill-element">
+                <div class="img-skill-container top-zoom-rotate">
+                    <img src="images/skills/javascript.png" alt="JavaScript">
+                </div>
+                <div class="skill-description">
+                    <h2>JavaScript</h2>
+                </div>
+            </div>
+
+            <div class="skill-element">
+                <div class="img-skill-container zoom-rotate">
+                    <img src="images/skills/jquery.png" alt="jQuery">
+                </div>
+                <div class="skill-description">
+                    <h2>jQuery</h2>
+                </div>
+            </div>
+
+            <div class="skill-element">
+                <div class="img-skill-container zoom-rotate">
+                    <img src="images/skills/bootstrap.jpg" alt="Bootstrap">
+                </div>
+                <div class="skill-description">
+                    <h2>Bootstrap</h2>
                 </div>
             </div>
 
 
+        </div>
 
-        </section>
+    </section>
 
-        <section class="section" id="portfolio-section" data-aos="fade-in" data-aos-duration="3000"
-            data-aos-offset="100" data-aos-once="true">
+    <section class="section" id="languages-section" data-aos="fade-in" data-aos-duration="3000"
+             data-aos-offset="100" data-aos-once="true">
 
-            <div class="section-header"><i class="fas fa-briefcase fa-1x"></i>
-                <h1>Portfolio</h1>
+        <div class="section-header"><i class="fas fa-language fa-1x"></i>
+            <h1>Languages</h1>
+        </div>
+
+        <div class="language-container">
+            <div class="language english">
+                <img src="images/languages/english.jpg" id="english-img" class="lang" alt="English logo">
+                <h2>English</h2>
+
+                <div class="skillbar clearfix " data-percent="80%">
+                    <div class="skillbar-title"><span>Level</span></div>
+                    <div class="skillbar-bar" id="english-skillbar"></div>
+                    <div class="skill-bar-percent">C1</div>
+                </div>
+
+                <div class="certificate">
+                    <h3>Cambridge English: Advanced (CAE)</h3>
+                    <img src="images/languages/certificates/english.jpg" id="english-cert" class="cert lang-cert"
+                         alt="CAE Certificate">
+                </div>
             </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
+            <div class="language german">
+                <img src="images/languages/german.jpg" id="german-img" class="lang lang-cert" alt="German logo">
+                <h2>German</h2>
+
+                <div class="skillbar clearfix " data-percent="60%">
+                    <div class="skillbar-title"><span>Level</span></div>
+                    <div class="skillbar-bar" id="german-skillbar"></div>
+                    <div class="skill-bar-percent">B1</div>
+                </div>
+
+                <div class="certificate">
+                    <h3>Deutsches Sprachdiplom I (DSD I)</h3>
+                    <img src="images/languages/certificates/german.jpg" id="german-cert" class="cert lang-cert"
+                         alt="CAE Certificate">
+                </div>
+            </div>
+        </div>
 
 
+    </section>
 
-        </section>
+    <section class="section" id="portfolio-section" data-aos="fade-in" data-aos-duration="3000"
+             data-aos-offset="100" data-aos-once="true">
 
-        <section class="section" id="certificates-section" data-aos="fade-in" data-aos-duration="3000"
-            data-aos-offset="100" data-aos-once="true">
+        <div class="section-header"><i class="fas fa-briefcase fa-1x"></i>
+            <h1>Portfolio</h1>
+        </div>
 
-            <div class="section-header"><i class="fas fa-certificate fa-1x"></i>
-                <h1>Certificates</h1>
+        <div class="portfolio-container">
+            <img class="logo" src="images/logos/fitbook.png" height="300px" alt="FitBook Logo">
+            <h2>FitBook</h2>
+            <div class="app-info"><h3>Single Page Application with Spring and Angular 8</h3>
+                <h4>FitBook is a web-platform for creating and sharing fitness-related workout plans and diet plans.
+                    Workouts, Workout Plans, Meals and Diet Plans can receive feedback in form of comments and likes, be
+                    copied and edited so it could fit everyone's needs. Whenever a user receives a comment, he is
+                    notified via E-Mail. The finished workout plans and diet plans could be exported to Excel
+                    Spreadsheet.</h4></div>
+
+
+            <div class="technologies"><h3>Used technologies</h3><h4>Java 11, Spring Boot, Spring Data, Spring MVC,
+                Spring Security, Angular 8, Hibernate ORM, MySQL (development) / PostgreSQL (deployment), jUnit +
+                Mockito (Integration + Unit Testing), Bootstrap</h4></div>
+
+
+            <div class="link-container">
+                <a target=”_blank” href="https://github.com/aleksandar-petrov/fitbook">
+                    <img src="images/logos/github-logo.svg" height="100px" alt="GitHub Logo">
+                    <h3>GitHub</h3>
+                </a>
             </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-
-
-
-        </section>
-
-        <section class="section" id="achievments-section" data-aos="fade-in" data-aos-duration="3000"
-            data-aos-offset="100" data-aos-once="true">
-
-            <div class="section-header"><i class="fas fa-trophy fa-1x"></i>
-                <h1>Achievments</h1>
+            <div class="link-container">
+                <a target=”_blank” href="https://fit-book.herokuapp.com/">
+                    <img src="images/logos/fitbook-favicon.png" height="100px" alt="GitHub Logo">
+                    <h3>Website</h3>
+                </a>
             </div>
 
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis ratione sit pariatur, maxime, tempora
-                quo repudiandae ab error sunt nisi nulla. Ipsa officiis quae repellat totam quos adipisci, nisi
-                nobis?</p>
+        </div>
+
+
+    </section>
+
+    <section class="section" id="certificates-section" data-aos="fade-in" data-aos-duration="3000"
+             data-aos-offset="100" data-aos-once="true">
+
+        <div class="section-header"><i class="fas fa-certificate fa-1x"></i>
+            <h1>Certificates</h1>
+        </div>
+
+        <div class="certificate-container">
+
+            <div class="certificate-info">
+                <a target=”_blank” href="https://softuni.bg/certificates/details/61701/44e2c601">
+                    <figure class="imghvr-slide-left">
+                        <img src="images/certificates/technology-fundamentals.jpg"
+                             alt="Certificate">
+                        <h2>Technology Fundamentals - September 2018</h2>
+                        <div class="grade-container">
+
+                            <h3 class="grade">Grade: 6.00/6.00</h3>
+                        </div>
+                        <figcaption>
+                            <p>Certificate Details</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+            </div>
+
+            <div class="certificate-info">
+                <a target=”_blank” href="https://softuni.bg/Certificates/Details/63173/e58185fb">
+                    <figure class="imghvr-slide-right">
+                        <img src="images/certificates/java-advanced.jpg"
+                             alt="Certificate">
+                        <h2>Java Advanced - January 2019</h2>
+                        <div class="grade-container">
+
+                            <h3 class="grade">Grade: 6.00/6.00</h3>
+                        </div>
+                        <figcaption>
+                            <p>Certificate Details</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+            </div>
+            <div class="certificate-info">
+                <a target=”_blank” href="https://softuni.bg/Certificates/Details/65914/1d6fb27d">
+                    <figure class="imghvr-slide-left">
+                        <img src="images/certificates/java-oop.jpg"
+                             alt="Certificate">
+                        <h2>Java OOP - February 2019</h2>
+                        <div class="grade-container">
+
+                            <h3 class="grade">Grade: 6.00/6.00</h3>
+                        </div>
+                        <figcaption>
+                            <p>Certificate Details</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+            </div>
+            <div class="certificate-info">
+                <a target=”_blank” href="https://softuni.bg/Certificates/Details/67170/c822a8a8">
+                    <figure class="imghvr-slide-right">
+                        <img src="images/certificates/mysql.jpg"
+                             alt="Certificate">
+                        <h2>MySQL - May 2019</h2>
+                        <div class="grade-container">
+
+                            <h3 class="grade">Grade: 6.00/6.00</h3>
+                        </div>
+                        <figcaption>
+                            <p>Certificate Details</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+            </div>
+            <div class="certificate-info">
+                <a target=”_blank” href="https://softuni.bg/Certificates/Details/68969/f66b8156">
+                    <figure class="imghvr-slide-left">
+                        <img src="images/certificates/hibernate.jpg"
+                             alt="Certificate">
+                        <h2>Hibernate - June 2019</h2>
+                        <div class="grade-container">
+
+                            <h3 class="grade">Grade: 6.00/6.00</h3>
+                        </div>
+                        <figcaption>
+                            <p>Certificate Details</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+            </div>
+            <div class="certificate-info">
+                <a target=”_blank” href="https://softuni.bg/Certificates/Details/72791/2e5e0693">
+                    <figure class="imghvr-slide-right">
+                        <img src="images/certificates/java-web-basics.jpg"
+                             alt="Certificate">
+                        <h2>Java Web Basics - September 2019</h2>
+                        <div class="grade-container">
+
+                            <h3 class="grade">Grade: 6.00/6.00</h3>
+                        </div>
+                        <figcaption>
+                            <p>Certificate Details</p>
+                        </figcaption>
+                    </figure>
+                </a>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="section" id="achievements-section" data-aos="fade-in" data-aos-duration="3000"
+             data-aos-offset="100" data-aos-once="true">
+
+        <div class="section-header"><i class="fas fa-trophy fa-1x"></i>
+            <h1>Achievments</h1>
+        </div>
 
 
 
-        </section>
+        <div class="achievements-container">
+            <div class="row">
+                <div class="award">
 
-    </main>
+                    <div class="place"><i class="fas fa-award fa-2x"></i>
+                        <h2>1st place</h2></div>
+                    <h3> in Java Advanced Course</h3>
+                </div>
+                <div class="award">
 
-    <footer>
+                    <div class="place"><i class="fas fa-award fa-2x"></i>
+                        <h2>1st place</h2></div>
+                    <h3> in Java OOP Course</h3>
+                </div>
+            </div>
 
-    </footer>
+            <div class="achievements-photo">
+                <img src="images/achievements/first.jpg" alt="Achievement picture">
+            </div>
+
+            <div class="row">
+                <div class="award">
+
+                    <div class="place"><i class="fas fa-award fa-2x"></i>
+                        <h2>1st place</h2></div>
+                    <h3> in MySQL Course</h3>
+                </div>
+                <div class="award">
+
+                    <div class="place"><i class="fas fa-award fa-2x"></i>
+                        <h2>1st place</h2></div>
+                    <h3> in Java Web Basics Course</h3>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+
+</footer>
 
 
-
-
-    <script src="js/styles-helper.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-    <script src="js/particles-app.js"></script>
-    <script src="js/scroller.js"></script>
+<script src="js/styles-helper.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+<script src="js/particles-app.js"></script>
+<script src="js/scroller.js"></script>
 
 </body>
 

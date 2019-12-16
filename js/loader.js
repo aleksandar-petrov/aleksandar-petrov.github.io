@@ -1,3 +1,3 @@
 setTimeout(() => {
-    $(".se-pre-con").fadeOut("slow"); 
+    $(".se-pre-con").fadeOut("slow");
 }, 3000);
